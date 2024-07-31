@@ -14,14 +14,14 @@ class AppTheme {
       ),
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ButtonStyle(
-          shape: MaterialStatePropertyAll(
+          shape: WidgetStatePropertyAll(
             RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
           ),
-          padding: const MaterialStatePropertyAll(
+          padding: const WidgetStatePropertyAll(
             EdgeInsets.symmetric(vertical: 10, horizontal: 20),
           ),
-          elevation: const MaterialStatePropertyAll(5),
-          minimumSize: const MaterialStatePropertyAll(Size(100, 45)),
+          elevation: const WidgetStatePropertyAll(5),
+          minimumSize: const WidgetStatePropertyAll(Size(100, 45)),
         ),
       ),
       floatingActionButtonTheme: FloatingActionButtonThemeData(
